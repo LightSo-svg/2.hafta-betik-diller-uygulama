@@ -1,0 +1,53 @@
+import random
+sayac_yazı=0
+sayac_tura=0
+
+for i in range (200000):
+
+
+    r = random.random()
+    print(r)
+
+    if r>0.5:
+        sayac_tura+=1
+    else:
+        sayac_yazı+=1
+
+    print ("Yazi sayisi",sayac_yazı)
+    print("Tura sayisi",sayac_tura)
+
+
+
+
+dizi=["gulsenem","hüseyin","nasiba","guncha","hasan"]
+
+def Veli(sist):
+
+        try:
+            sayac=0
+
+            while True:
+
+                y=(sist[sayac])
+                sayac += 1
+
+        except:
+
+            pass
+        return sayac
+
+        
+a=Veli(dizi)
+print(type(a))
+print(a)
+
+
+
+
+import random
+
+from main import rsı
+
+while True:
+    r=random.randint(1,100)
+    rsı(r)
